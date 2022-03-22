@@ -19,6 +19,14 @@ print(z(()))
 print(a().y((a,))) 
 print(A.y(aa, (a,z))) 
 print(aa.y((z,1,'z'))) 
+
+# Podemos ver que los mensajes que se muestran son:
+# >>> <class 'puzle.A'>
+# >>> False
+# >>> 0
+# >>> 1
+# >>> 2
+# >>> 3
 ```
 
 Ejercicio 4: 
