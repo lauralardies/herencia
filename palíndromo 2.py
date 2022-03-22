@@ -10,7 +10,7 @@ class Palindromo:
     def Verificacion(self):
         cadena1= input("Dame una palabra: ")
         print(cadena1.upper())
-            if :
+            if cadena1 == ''.join(reversed(cadena1)):
                 return str("True")
             else:
                 return str("False")
