@@ -22,6 +22,22 @@ palindromo = Palindromo(cadena1)
 
 print(palindromo.Verificacion())
 
+# p = Palindromo("radar") 
+# print(p.test()) 
+# >>> True 
+# p = Palindromo("sonar") 
+# >>> RADAR 
+# print(p.test()) 
+# >>> False 
+# SONAR 
+
+# ¿Por qué se muestra RADAR después de la instanciación Palindromo("sonar")?
+
+# La respuesta se encuentra en el enunciado del ejercicio. Hay una frase que dice lo siguiente : 
+# "al destruir la instancia, muestre el atributo en mayúsculas". Esto es lo que pasa, a la instancia p se le asigna un valor nuevo, 
+# es decir, se destruye la instancia p de RADAR para cambiarlo por una misma instancia p de SONAR. Como se destruye la instancia de
+# RADAR, entonces se imprime el atributo RADAR en mayúsculas.
+
 # Ejercicio 3
 print("\nEjercicio 3:\n")
 
