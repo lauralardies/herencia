@@ -29,7 +29,7 @@ print(aa.y((z,1,'z')))
 # >>> 3
 ```
 
-Ejercicio 4: 
+Ejercicio 4: Este ejercicio te pide crear una clase Logger en la cual se cuenten las llamadas que entran, almacenandolas en una variable. 
 ```
 class Test:
     def __init__(self) -> None: # Inicializamos un contador y avisamos que comienza a contar, imprimiendo en mensaje "Start log"
