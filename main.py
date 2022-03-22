@@ -2,6 +2,26 @@
 from puzle import A 
 from logger import Test
 
+# Ejercicio 1:
+print("Ejercicio 1:\n")
+
+from palíndromo import Cadenas
+
+cadena1 = input("Dame una palabra: ")
+op1 = Cadenas(cadena1)
+
+print(op1.Palindromo())
+
+# Ejercicio 2:
+print("\nEjercicio 2:\n")
+
+from palíndromo_2 import Palindromo
+
+cadena1= input("Dame una palabra: ")
+palindromo = Palindromo(cadena1)
+
+print(palindromo.Verificacion())
+
 # Ejercicio 3
 print("\nEjercicio 3:\n")
 
