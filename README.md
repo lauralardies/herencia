@@ -1,6 +1,6 @@
 # herencia
 
-Ejercicio 3:
+Ejercicio 3: En este ejercicio se pide decir qué es lo que muestra el mensaje del siguiente código. La respuesta está en el mismo código.
 ```
 class A: 
     def z(self): # Devuelve la clase.
@@ -21,7 +21,7 @@ print(A.y(aa, (a,z)))
 print(aa.y((z,1,'z'))) 
 ```
 
-Ejercicio 4:
+Ejercicio 4: 
 ```
 class Test:
     def __init__(self) -> None: # Inicializamos un contador y avisamos que comienza a contar, imprimiendo en mensaje "Start log"
