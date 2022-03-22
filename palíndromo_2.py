@@ -8,11 +8,7 @@ class Palindromo:
     
     def Verificacion(self):
         print(self.cadena1.upper())
-        if self.cadena1 == ''.join(reversed(cadena1)):
+        if self.cadena1 == ''.join(reversed(self.cadena1)):
             return str("True")
         else:
             return str("False")
-
-cadena1= input("Dame una palabra: ")
-palindromo = Palindromo(cadena1)
-print(palindromo.Verificacion())

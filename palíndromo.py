@@ -20,8 +20,3 @@ class Cadenas:
                 return str("True")
             else:
                 return str("False")
-
-cadena1 = input("Dame una palabra: ")
-op1 = Cadenas(cadena1)
-
-print(op1.Palindromo())
