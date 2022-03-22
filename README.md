@@ -1,5 +1,8 @@
 # herencia
 
+Nuestra dirección de GitHub para este repositorio es la siguiente: [GitHub](https://github.com/lauralardies/herencia)
+https://github.com/lauralardies/herencia
+
 Ejercicio 3: En este ejercicio se pide decir qué es lo que muestra el mensaje del siguiente código. La respuesta está en el mismo código.
 ```
 class A: 
