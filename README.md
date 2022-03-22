@@ -3,6 +3,51 @@
 Nuestra dirección de GitHub para este repositorio es la siguiente: [GitHub](https://github.com/lauralardies/herencia)
 https://github.com/lauralardies/herencia
 
+Ejercicio 1: En este ejercicio pide crear una clase que identifique si una palabra es o no palíndromo.
+```
+class Cadenas:
+    def __init__(self, cadena1):
+        self.cadena1=cadena1
+    
+    def Palindromo(self):
+        cadena1=self.cadena1
+        c,i,nom,cad,x = 0,0,'','',''
+        i = len(cadena1)
+        nom = cadena1.lower()
+        while i != c:
+            for x in nom:
+                cad = x + cad
+                c = c+1
+            if nom == cad:
+                return str("True")
+            else:
+                return str("False")
+
+cadena1 = input("Dame una palabra: ")
+op1 = Cadenas(cadena1)
+
+print(op1.Palindromo())
+```
+Ejercicio 2: En este ejercicio pide crear un atributo que se inicializará en el constructor, verificar si la instancia es un palíndromo y que muestre el atributo en mayúsculas.
+
+```
+class Palindromo:
+    def __init__(self, cadena1):
+        self.cadena1=cadena1
+    
+    def Verificacion(self):
+        cadena1= input("Dame una palabra: ")
+        print(cadena1.upper())
+        if cadena1 == ''.join(reversed(cadena1)):
+            return str("True")
+        else:
+            return str("False")
+
+print(Palindromo.Verificacion())
+```
+Pregunta adicional: ¿por qué se muestra RADAR después de la instanciación Palindromo("sonar")?
+
+
 Ejercicio 3: En este ejercicio se pide decir qué es lo que muestra el mensaje del siguiente código. La respuesta está en el mismo código.
 ```
 class A: 
